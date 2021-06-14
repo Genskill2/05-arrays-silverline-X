@@ -37,10 +37,7 @@ for(int i=0;i<n;i++)
       if(a[i]==a[j]){s[i]++;}
     }
   }
-for(int i=0;i<n;i++)
-	{if(a[i]==max(s,n)
-		{return a[i];}
-	}
+return max(s,n);
 }
 //factors
 int factors(int n, int f[])
