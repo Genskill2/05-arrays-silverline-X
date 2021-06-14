@@ -41,15 +41,18 @@ return max(s,n);
 }
 //factors
 int factors(int n, int f[])
-  {int s=n;int k=2;int c=0;
-   while(s>=k)
-      {if(s%k==0)
+  {int k=2;int c=0;
+   while(n>=k)
+      {if(n%k==0)
             {
-                f[c]=k;c++;
-                s/=k;
+                f[c++]=k;
+                n/=k;
             }       
        else{k++;}
       }
   
-    return c+1; 
+    return c; 
   }
+//main
+void main ()
+{}
