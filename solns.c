@@ -4,33 +4,33 @@ int max(int a[],int n)
 {int m=a[0];
   for(int i=0;i<n;i++)
     {
-      if(ar[i]>m){m=ar[i];}
+      if(a[i]>m){m=a[i];}
     }
 return m;
 }
 //min
 int min(int a[],int n)
   {
-    int m=ar[0];
-    for(int i=o;i<n;i++)
+    int m=a[0];
+    for(int i=0;i<n;i++)
         {
-          if(ar[i]<m){m=ar[i];}
+          if(a[i]<m){m=a[i];}
         }
 return m;  
 }
 //average
-float average(int a,int n)
+float average(int a[],int n)
 {
 int s=0;
   for(int i=0;i<n;i++)
-  {s+=ar[i];}
+  {s+=a[i];}
 return (float)s/n;
 }
 //mode
 int mode(int a[],int n)
 {
 int s[n];
-for(int i=o;i<n;i++)
+for(int i=0;i<n;i++)
   {s[i]=0;
   for(int j=i;j<n;j++)
     {
