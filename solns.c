@@ -53,6 +53,3 @@ int factors(int n, int f[])
   
     return c; 
   }
-//main
-void main ()
-{}
